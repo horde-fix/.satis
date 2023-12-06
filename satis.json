@@ -1,6 +1,6 @@
 {
     "name": "horde-fix/repository",
-    "homepage": "https://horde-fix.github.io",
+    "homepage": "https://horde-fix.github.io/satis",
     "repositories": [
         {
             "type": "vcs",
