@@ -1,0 +1,82 @@
+{
+    "name": "horde-fix/repository",
+    "homepage": "https://horde-fix.github.io",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Imap_Client",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Translation",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Exception",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Stream",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Idna",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/ListHeaders",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Mime",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Mail",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Secret",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Support",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Crypt_Blowfish",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Socket_Client",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde/Stringprep",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Cache",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Compress_Fast",
+            "no-api": true
+        }    
+    ],
+    "require-all": true
+}
