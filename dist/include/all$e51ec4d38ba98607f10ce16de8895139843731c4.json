@@ -688,6 +688,48 @@
                 ],
                 "description": "Network socket client library",
                 "homepage": "https://www.horde.org"
+            },
+            "2.1.5.2": {
+                "name": "horde/socket_client",
+                "version": "2.1.5.2",
+                "version_normalized": "2.1.5.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Socket_Client",
+                    "reference": "c2cd6c5bbd1a6bd277bc26684991689c00a70ac2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Socket_Client/zipball/c2cd6c5bbd1a6bd277bc26684991689c00a70ac2",
+                    "reference": "c2cd6c5bbd1a6bd277bc26684991689c00a70ac2",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2023-12-05T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Socket\\": "lib/Horde/Socket/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Network socket client library",
+                "homepage": "https://www.horde.org"
             }
         },
         "horde/stream": {
