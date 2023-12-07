@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "horde/stream": [
+            {
+                "name": "horde/stream",
+                "version": "1.6.4",
+                "version_normalized": "1.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Stream",
+                    "reference": "8495e36c8850da7ee6cb33602945f236d9dcf1f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Stream/zipball/8495e36c8850da7ee6cb33602945f236d9dcf1f2",
+                    "reference": "8495e36c8850da7ee6cb33602945f236d9dcf1f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/stream_wrapper": "^2.1",
+                    "horde/test": "^2.1",
+                    "horde/util": "^2"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP streams library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream"
+            }
+        ]
+    }
+}

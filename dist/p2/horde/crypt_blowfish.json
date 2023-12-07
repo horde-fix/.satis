@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "horde/crypt_blowfish": [
+            {
+                "name": "horde/crypt_blowfish",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Crypt_Blowfish",
+                    "reference": "7f6f37a2c986f14c4fc16459843b50791b927c30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Crypt_Blowfish/zipball/7f6f37a2c986f14c4fc16459843b50791b927c30",
+                    "reference": "7f6f37a2c986f14c4fc16459843b50791b927c30",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "horde/support": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "horde/test": "^2.1"
+                },
+                "time": "2022-06-25T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt_Blowfish": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish encryption library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish"
+            }
+        ]
+    }
+}

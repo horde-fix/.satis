@@ -1,0 +1,63 @@
+{
+    "packages": {
+        "horde/cache": [
+            {
+                "name": "horde/cache",
+                "version": "2.5.6",
+                "version_normalized": "2.5.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Cache",
+                    "reference": "7295c26bb4b606bdd989c05daed705d584b627c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Cache/zipball/7295c26bb4b606bdd989c05daed705d584b627c2",
+                    "reference": "7295c26bb4b606bdd989c05daed705d584b627c2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "horde/compress_fast": "^1",
+                    "horde/exception": "^2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-apc": "^3.1.1",
+                    "ext-eaccelerator": "0.9.5",
+                    "ext-xcache": "*",
+                    "horde/db": "^2.1",
+                    "horde/hashtable": "^1",
+                    "horde/log": "^2",
+                    "horde/memcache": "^2",
+                    "horde/mongo": "^1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cache": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Caching library",
+                "homepage": "https://www.horde.org/libraries/Horde_Cache"
+            }
+        ]
+    }
+}

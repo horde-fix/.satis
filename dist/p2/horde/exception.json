@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "horde/exception": [
+            {
+                "name": "horde/exception",
+                "version": "2.0.9",
+                "version_normalized": "2.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Exception",
+                    "reference": "02b50cc7783061f371e87506245fd97fcea9cd00"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Exception/zipball/02b50cc7783061f371e87506245fd97fcea9cd00",
+                    "reference": "02b50cc7783061f371e87506245fd97fcea9cd00",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Exception": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Exception handler library",
+                "homepage": "https://www.horde.org/libraries/Horde_Exception"
+            }
+        ]
+    }
+}

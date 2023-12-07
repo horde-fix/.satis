@@ -1,0 +1,26 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$4037bc2685bc51107df544db3cd21c3897014540.json": {
+            "sha1": "4037bc2685bc51107df544db3cd21c3897014540"
+        }
+    },
+    "metadata-url": "/satis/p2/%package%.json",
+    "available-packages": [
+        "horde/cache",
+        "horde/compress_fast",
+        "horde/crypt_blowfish",
+        "horde/exception",
+        "horde/idna",
+        "horde/imap-client",
+        "horde/listheaders",
+        "horde/mail",
+        "horde/mime",
+        "horde/secret",
+        "horde/socket_client",
+        "horde/stream",
+        "horde/stringprep",
+        "horde/support",
+        "horde/translation"
+    ]
+}

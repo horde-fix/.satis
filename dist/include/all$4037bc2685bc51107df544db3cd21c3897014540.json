@@ -1,0 +1,875 @@
+{
+    "packages": {
+        "horde/cache": {
+            "2.5.6": {
+                "name": "horde/cache",
+                "version": "2.5.6",
+                "version_normalized": "2.5.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Cache",
+                    "reference": "7295c26bb4b606bdd989c05daed705d584b627c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Cache/zipball/7295c26bb4b606bdd989c05daed705d584b627c2",
+                    "reference": "7295c26bb4b606bdd989c05daed705d584b627c2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "horde/compress_fast": "^1",
+                    "horde/exception": "^2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-apc": "^3.1.1",
+                    "ext-eaccelerator": "0.9.5",
+                    "ext-xcache": "*",
+                    "horde/db": "^2.1",
+                    "horde/hashtable": "^1",
+                    "horde/log": "^2",
+                    "horde/memcache": "^2",
+                    "horde/mongo": "^1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cache": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Caching library",
+                "homepage": "https://www.horde.org/libraries/Horde_Cache"
+            }
+        },
+        "horde/compress_fast": {
+            "1.1.2": {
+                "name": "horde/compress_fast",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Compress_Fast",
+                    "reference": "3b98cc9fb49e09f32b1ffe153b70cb7756e569fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Compress_Fast/zipball/3b98cc9fb49e09f32b1ffe153b70cb7756e569fe",
+                    "reference": "3b98cc9fb49e09f32b1ffe153b70cb7756e569fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-lzf": "^1.5.2",
+                    "ext-zlib": "*",
+                    "horde/lz4": "*",
+                    "horde/test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Compress_Fast": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Fast compression library",
+                "homepage": "https://www.horde.org"
+            }
+        },
+        "horde/crypt_blowfish": {
+            "1.1.5": {
+                "name": "horde/crypt_blowfish",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Crypt_Blowfish",
+                    "reference": "7f6f37a2c986f14c4fc16459843b50791b927c30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Crypt_Blowfish/zipball/7f6f37a2c986f14c4fc16459843b50791b927c30",
+                    "reference": "7f6f37a2c986f14c4fc16459843b50791b927c30",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "horde/support": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "horde/test": "^2.1"
+                },
+                "time": "2022-06-25T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt_Blowfish": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish encryption library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish"
+            }
+        },
+        "horde/exception": {
+            "2.0.9": {
+                "name": "horde/exception",
+                "version": "2.0.9",
+                "version_normalized": "2.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Exception",
+                    "reference": "02b50cc7783061f371e87506245fd97fcea9cd00"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Exception/zipball/02b50cc7783061f371e87506245fd97fcea9cd00",
+                    "reference": "02b50cc7783061f371e87506245fd97fcea9cd00",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Exception": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Exception handler library",
+                "homepage": "https://www.horde.org/libraries/Horde_Exception"
+            }
+        },
+        "horde/idna": {
+            "1.1.3": {
+                "name": "horde/idna",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Idna",
+                    "reference": "6630b786902072510072b2a3a192ff52c8915050"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Idna/zipball/6630b786902072510072b2a3a192ff52c8915050",
+                    "reference": "6630b786902072510072b2a3a192ff52c8915050",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-intl": "*"
+                },
+                "time": "2019-11-03T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Idna": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IDNA normalization library",
+                "homepage": "https://www.horde.org"
+            }
+        },
+        "horde/imap-client": {
+            "v2.30.7+fix": {
+                "name": "horde/imap-client",
+                "version": "v2.30.7+fix",
+                "version_normalized": "2.30.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Imap_Client",
+                    "reference": "d12fd8ee9b1ce3896a32c2edd3f783e4c473c4c6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Imap_Client/zipball/d12fd8ee9b1ce3896a32c2edd3f783e4c473c4c6",
+                    "reference": "d12fd8ee9b1ce3896a32c2edd3f783e4c473c4c6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "horde/exception": "^2",
+                    "horde/mail": "^2",
+                    "horde/mime": "^2.5.2",
+                    "horde/secret": "^2",
+                    "horde/socket_client": "^2",
+                    "horde/stream": "^1.4",
+                    "horde/stream_filter": "^2",
+                    "horde/translation": "^2.2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-intl": "*",
+                    "ext-mbstring": "*",
+                    "horde/cache": "^2",
+                    "horde/compress_fast": "^1",
+                    "horde/crypt_blowfish": "^1.1",
+                    "horde/db": "^2.2",
+                    "horde/hashtable": "^1",
+                    "horde/mongo": "^1",
+                    "horde/pack": "^1",
+                    "horde/stringprep": "^1",
+                    "horde/support": "^2",
+                    "horde/test": "^2.2.7"
+                },
+                "time": "2023-12-05T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Imap\\Client\\Test\\": "test/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IMAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+            },
+            "2.30.7.1": {
+                "name": "horde/imap-client",
+                "version": "2.30.7.1",
+                "version_normalized": "2.30.7.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Imap_Client",
+                    "reference": "c53c82fdf52d91d97ea4c509b4798f7f764da43b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Imap_Client/zipball/c53c82fdf52d91d97ea4c509b4798f7f764da43b",
+                    "reference": "c53c82fdf52d91d97ea4c509b4798f7f764da43b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "horde/exception": "^2",
+                    "horde/mail": "^2",
+                    "horde/mime": "^2.5.2",
+                    "horde/secret": "^2",
+                    "horde/socket_client": "^2",
+                    "horde/stream": "^1.4",
+                    "horde/stream_filter": "^2",
+                    "horde/translation": "^2.2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-intl": "*",
+                    "ext-mbstring": "*",
+                    "horde/cache": "^2",
+                    "horde/compress_fast": "^1",
+                    "horde/crypt_blowfish": "^1.1",
+                    "horde/db": "^2.2",
+                    "horde/hashtable": "^1",
+                    "horde/mongo": "^1",
+                    "horde/pack": "^1",
+                    "horde/stringprep": "^1",
+                    "horde/support": "^2",
+                    "horde/test": "^2.2.7"
+                },
+                "time": "2023-12-05T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Imap\\Client\\Test\\": "test/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IMAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+            }
+        },
+        "horde/listheaders": {
+            "1.2.6": {
+                "name": "horde/listheaders",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/ListHeaders",
+                    "reference": "c3774a514a00f2e1af73145ef8378de22d4aea29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/ListHeaders/zipball/c3774a514a00f2e1af73145ef8378de22d4aea29",
+                    "reference": "c3774a514a00f2e1af73145ef8378de22d4aea29",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/mail": "^2",
+                    "horde/translation": "^2.2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/mime": "^2.5",
+                    "horde/test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ListHeaders": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "List headers parsing library",
+                "homepage": "https://www.horde.org/libraries/Horde_ListHeaders"
+            }
+        },
+        "horde/mail": {
+            "2.6.7": {
+                "name": "horde/mail",
+                "version": "2.6.7",
+                "version_normalized": "2.6.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Mail",
+                    "reference": "629a4e17c39a8ce577f1472063778ca4d016d277"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Mail/zipball/629a4e17c39a8ce577f1472063778ca4d016d277",
+                    "reference": "629a4e17c39a8ce577f1472063778ca4d016d277",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "horde/idna": "^1",
+                    "horde/mime": "^2",
+                    "horde/stream_filter": "^2",
+                    "horde/translation": "^2.2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_mail": "2.*",
+                    "pear-pear.horde.org/horde_mail": "2.*"
+                },
+                "suggest": {
+                    "horde/smtp": "^1.7",
+                    "horde/stream_wrapper": "^2.1",
+                    "horde/test": "^2.1",
+                    "pear/net_dns2": "*",
+                    "pear/net_smtp": "^1.6"
+                },
+                "time": "2023-11-29T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mail"
+            }
+        },
+        "horde/mime": {
+            "2.11.5": {
+                "name": "horde/mime",
+                "version": "2.11.5",
+                "version_normalized": "2.11.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Mime",
+                    "reference": "69dcc9536758ff0ae92ab16463b07f4a46db34c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Mime/zipball/69dcc9536758ff0ae92ab16463b07f4a46db34c0",
+                    "reference": "69dcc9536758ff0ae92ab16463b07f4a46db34c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "horde/listheaders": "^1.2",
+                    "horde/mail": "^2.5",
+                    "horde/stream": "^1.3",
+                    "horde/stream_filter": "^2",
+                    "horde/support": "^2.1",
+                    "horde/text_flowed": "^2",
+                    "horde/translation": "^2.2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-idn": "*",
+                    "ext-intl": "*",
+                    "horde/nls": "^2",
+                    "horde/test": "^2.1",
+                    "horde/text_filter": "^2",
+                    "pear/net_dns2": "*"
+                },
+                "time": "2023-10-17T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mime": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "MIME library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mime"
+            }
+        },
+        "horde/secret": {
+            "2.0.7": {
+                "name": "horde/secret",
+                "version": "2.0.7",
+                "version_normalized": "2.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Secret",
+                    "reference": "1b36a31238efb5c624749396028cdc0bac52ab51"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Secret/zipball/1b36a31238efb5c624749396028cdc0bac52ab51",
+                    "reference": "1b36a31238efb5c624749396028cdc0bac52ab51",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "horde/crypt_blowfish": "^1",
+                    "horde/exception": "^2",
+                    "horde/support": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "require-dev": {
+                    "horde/test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Secret": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Secret key encryption library",
+                "homepage": "https://www.horde.org/libraries/Horde_Secret"
+            }
+        },
+        "horde/socket_client": {
+            "2.1.5": {
+                "name": "horde/socket_client",
+                "version": "2.1.5",
+                "version_normalized": "2.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Socket_Client",
+                    "reference": "16aaa15e0937f1ca62c18dd455bae5032d6ff725"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Socket_Client/zipball/16aaa15e0937f1ca62c18dd455bae5032d6ff725",
+                    "reference": "16aaa15e0937f1ca62c18dd455bae5032d6ff725",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2021-12-18T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Socket_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Network socket client library",
+                "homepage": "https://www.horde.org"
+            },
+            "2.1.5.1": {
+                "name": "horde/socket_client",
+                "version": "2.1.5.1",
+                "version_normalized": "2.1.5.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Socket_Client",
+                    "reference": "d652fec98a5e80121fb516be61f2fbd454463098"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Socket_Client/zipball/d652fec98a5e80121fb516be61f2fbd454463098",
+                    "reference": "d652fec98a5e80121fb516be61f2fbd454463098",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2023-12-05T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Socket_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Network socket client library",
+                "homepage": "https://www.horde.org"
+            }
+        },
+        "horde/stream": {
+            "1.6.4": {
+                "name": "horde/stream",
+                "version": "1.6.4",
+                "version_normalized": "1.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Stream",
+                    "reference": "8495e36c8850da7ee6cb33602945f236d9dcf1f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Stream/zipball/8495e36c8850da7ee6cb33602945f236d9dcf1f2",
+                    "reference": "8495e36c8850da7ee6cb33602945f236d9dcf1f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/stream_wrapper": "^2.1",
+                    "horde/test": "^2.1",
+                    "horde/util": "^2"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP streams library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream"
+            }
+        },
+        "horde/stringprep": {
+            "1.0.4": {
+                "name": "horde/stringprep",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde/Stringprep",
+                    "reference": "e4b6358b3285218c32eeb3d4ce99dfcb6b96e4a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde/Stringprep/zipball/e4b6358b3285218c32eeb3d4ce99dfcb6b96e4a9",
+                    "reference": "e4b6358b3285218c32eeb3d4ce99dfcb6b96e4a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_stringprep": "1.*",
+                    "pear-pear.horde.org/horde_stringprep": "1.*"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stringprep": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP implementation of RFC 3454 - Preparation of Internationalized Strings (\"stringprep\").",
+                "homepage": "https://pear.horde.org"
+            }
+        },
+        "horde/support": {
+            "2.2.3": {
+                "name": "horde/support",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Support",
+                    "reference": "94e1e111331187e0122f61b4b6d2757a2f0f2103"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Support/zipball/94e1e111331187e0122f61b4b6d2757a2f0f2103",
+                    "reference": "94e1e111331187e0122f61b4b6d2757a2f0f2103",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2022-06-18T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Support": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Supporting library",
+                "homepage": "https://www.horde.org/libraries/Horde_Support"
+            }
+        },
+        "horde/translation": {
+            "2.2.2": {
+                "name": "horde/translation",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Translation",
+                    "reference": "e83de5744912b5bbd6baebdf670a6311fb48e0ad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Translation/zipball/e83de5744912b5bbd6baebdf670a6311fb48e0ad",
+                    "reference": "e83de5744912b5bbd6baebdf670a6311fb48e0ad",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gettext": "*",
+                    "pear-pear.horde.org/Horde_Test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2017-02-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde translation library",
+                "homepage": "https://pear.horde.org"
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "horde/compress_fast": [
+            {
+                "name": "horde/compress_fast",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Compress_Fast",
+                    "reference": "3b98cc9fb49e09f32b1ffe153b70cb7756e569fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Compress_Fast/zipball/3b98cc9fb49e09f32b1ffe153b70cb7756e569fe",
+                    "reference": "3b98cc9fb49e09f32b1ffe153b70cb7756e569fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-lzf": "^1.5.2",
+                    "ext-zlib": "*",
+                    "horde/lz4": "*",
+                    "horde/test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Compress_Fast": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Fast compression library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

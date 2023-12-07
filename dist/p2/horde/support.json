@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "horde/support": [
+            {
+                "name": "horde/support",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Support",
+                    "reference": "94e1e111331187e0122f61b4b6d2757a2f0f2103"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Support/zipball/94e1e111331187e0122f61b4b6d2757a2f0f2103",
+                    "reference": "94e1e111331187e0122f61b4b6d2757a2f0f2103",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2022-06-18T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Support": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Supporting library",
+                "homepage": "https://www.horde.org/libraries/Horde_Support"
+            }
+        ]
+    }
+}

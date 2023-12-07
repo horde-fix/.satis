@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "horde/listheaders": [
+            {
+                "name": "horde/listheaders",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/ListHeaders",
+                    "reference": "c3774a514a00f2e1af73145ef8378de22d4aea29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/ListHeaders/zipball/c3774a514a00f2e1af73145ef8378de22d4aea29",
+                    "reference": "c3774a514a00f2e1af73145ef8378de22d4aea29",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/mail": "^2",
+                    "horde/translation": "^2.2",
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/mime": "^2.5",
+                    "horde/test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ListHeaders": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "List headers parsing library",
+                "homepage": "https://www.horde.org/libraries/Horde_ListHeaders"
+            }
+        ]
+    }
+}
