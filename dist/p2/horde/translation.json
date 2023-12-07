@@ -3,28 +3,32 @@
         "horde/translation": [
             {
                 "name": "horde/translation",
-                "version": "2.2.2",
-                "version_normalized": "2.2.2.0",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/horde-fix/Translation",
-                    "reference": "e83de5744912b5bbd6baebdf670a6311fb48e0ad"
+                    "reference": "a29e34c8d2003a2f76bce70379239210708a32e8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/horde-fix/Translation/zipball/e83de5744912b5bbd6baebdf670a6311fb48e0ad",
-                    "reference": "e83de5744912b5bbd6baebdf670a6311fb48e0ad",
+                    "url": "https://api.github.com/repos/horde-fix/Translation/zipball/a29e34c8d2003a2f76bce70379239210708a32e8",
+                    "reference": "a29e34c8d2003a2f76bce70379239210708a32e8",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3.0,<=8.0.0alpha1"
+                    "php": "^5.3 || ^7"
                 },
                 "suggest": {
-                    "ext-gettext": "*",
-                    "pear-pear.horde.org/Horde_Test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                    "ext-gettext": "*"
                 },
-                "time": "2017-02-27T00:00:00+00:00",
+                "time": "2017-11-14T00:00:00+00:00",
                 "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Translation": "lib/"
+                    }
+                },
                 "license": [
                     "LGPL-2.1"
                 ],
@@ -35,8 +39,8 @@
                         "role": "lead"
                     }
                 ],
-                "description": "Horde translation library",
-                "homepage": "https://pear.horde.org"
+                "description": "Translation library",
+                "homepage": "https://www.horde.org/libraries/Horde_Translation"
             }
         ]
     }
