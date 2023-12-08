@@ -76,6 +76,11 @@
             "type": "vcs",
             "url": "https://github.com/horde-fix/Compress_Fast",
             "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/horde-fix/Util",
+            "no-api": true
         }    
     ],
     "require": {
@@ -93,6 +98,7 @@
         "horde/stream": "^1.6.4",
         "horde/stringprep": "^1.0.4",
         "horde/support": "^2.2.3",
-        "horde/translation": "^2.2.3"
+        "horde/translation": "^2.2.3",
+        "horde/util": "^2.5.13"
     }
 }

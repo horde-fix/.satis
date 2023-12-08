@@ -1,0 +1,64 @@
+{
+    "packages": {
+        "horde/util": [
+            {
+                "name": "horde/util",
+                "version": "2.5.13",
+                "version_normalized": "2.5.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Util",
+                    "reference": "6e7465bf932dd89856ab3ad4d3582c6b0cc2c63f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Util/zipball/6e7465bf932dd89856ab3ad4d3582c6b0cc2c63f",
+                    "reference": "6e7465bf932dd89856ab3ad4d3582c6b0cc2c63f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-ctype": "*",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*"
+                },
+                "time": "2022-06-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Util": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Utility library",
+                "homepage": "https://www.horde.org/libraries/Horde_Util"
+            }
+        ]
+    }
+}
