@@ -104,7 +104,7 @@
         "horde/stringprep": "^1.0.4",
         "horde/support": "^2.2.3",
         "horde/translation": "^2.2.3",
-        "horde/util": "^2.5.13",
+        "horde/util": "^2.5.13.1",
         "horde/text_flowed": "^2.0.5"
     }
 }

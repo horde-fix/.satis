@@ -1030,19 +1030,19 @@
             }
         },
         "horde/util": {
-            "2.5.13": {
+            "2.5.13.1": {
                 "name": "horde/util",
-                "version": "2.5.13",
-                "version_normalized": "2.5.13.0",
+                "version": "2.5.13.1",
+                "version_normalized": "2.5.13.1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/horde-fix/Util",
-                    "reference": "6e7465bf932dd89856ab3ad4d3582c6b0cc2c63f"
+                    "reference": "86453c271307a5dfb2ef5b9b204f4cbdf2983087"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/horde-fix/Util/zipball/6e7465bf932dd89856ab3ad4d3582c6b0cc2c63f",
-                    "reference": "6e7465bf932dd89856ab3ad4d3582c6b0cc2c63f",
+                    "url": "https://api.github.com/repos/horde-fix/Util/zipball/86453c271307a5dfb2ef5b9b204f4cbdf2983087",
+                    "reference": "86453c271307a5dfb2ef5b9b204f4cbdf2983087",
                     "shasum": ""
                 },
                 "require": {
@@ -1058,11 +1058,11 @@
                     "ext-mbstring": "*",
                     "ext-xml": "*"
                 },
-                "time": "2022-06-19T00:00:00+00:00",
+                "time": "2023-12-08T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
-                        "Horde_Util": "lib/"
+                        "Horde": "lib/"
                     }
                 },
                 "license": [
