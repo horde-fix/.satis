@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$c2051c2f876f0bbbac70ff77ecea55596540e152.json": {
-            "sha1": "c2051c2f876f0bbbac70ff77ecea55596540e152"
+        "include/all$37893ec156bb072b543469edcaecea5b37db87e9.json": {
+            "sha1": "37893ec156bb072b543469edcaecea5b37db87e9"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
@@ -21,6 +21,7 @@
         "horde/stream",
         "horde/stringprep",
         "horde/support",
+        "horde/text_flowed",
         "horde/translation",
         "horde/util"
     ]

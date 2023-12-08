@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "horde/text_flowed": [
+            {
+                "name": "horde/text_flowed",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/horde-fix/Text_Flowed",
+                    "reference": "aa0f11daed50a009de098bc4095bd5e1a71c80c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/horde-fix/Text_Flowed/zipball/aa0f11daed50a009de098bc4095bd5e1a71c80c1",
+                    "reference": "aa0f11daed50a009de098bc4095bd5e1a71c80c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "require-dev": {
+                    "horde/test": "^2.1"
+                },
+                "time": "2019-12-15T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Flowed": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Flowed text library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Flowed"
+            }
+        ]
+    }
+}
